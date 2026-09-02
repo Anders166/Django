@@ -6,7 +6,7 @@ class Cuenta:
     
     def depositar(self, cantidad): #Metodos o comportamientos
         if cantidad > 0:
-            self._saldo += cantidad #Acumulador
+            self.__saldo += cantidad #Acumulador
             
     #Agregar el metodo retirar
     def retirar(self, cantidad):
